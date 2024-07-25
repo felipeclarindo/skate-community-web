@@ -1,103 +1,37 @@
-# Guia de estilos
+🌍 [Leia em Português](README.pt-BR.md)
 
-Toda a estilização que será usada no projeto dentro do figma.
+# HZC | Skate Community
 
-[Link do projeto no figma](https://www.figma.com/file/ibWktwVpnog76rMYOdVhks/Dispondo-elementos-com-flexbox-e-grid?node-id=54%3A2358)
+The HZC project is a landing page for a video and product website. The layout includes a header with navigation, a sidebar menu, sections for featured and recent videos, and sections for the latest products. The site is designed to display video content and products with a responsive interface for different devices.
 
-## Fonte
+## Steps to Run
 
-```html
-Open Sans:
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap">
+1. Clone repository:
+
+```bash
+git clone https://github.com/felipeclarindo/skate-community-web.git
 ```
 
-## Cores
+2. Enter directory:
 
-corpo: `#1D232A`
-
-cabeçalho: `#1D232A`
-
-cabeçalho mobile: `#15191C`
-
-menu lateral: `#15191C`
-
-cartão: `#2C343A`
-
-fonte: `#FFFFFF`
-
-fonte alternativa: `#95999C`
-
-links: `#0480DC`
-
-botão: `#0480DC`
-
-sombras: `0px 4px 4px rgba(0, 0, 0, 0.16)`
-
-## Ícones
-
-Estão dentro do arquivo de fonte `icones.ttf`. Para usar, primeiro importe a fonte no projeto usando `@font-face` e depois utilize os códigos abaixo para exibir o ícone.
-
-```css
-@font-face {
-    font-family: 'icones';
-    src: url(../font/icones.ttf);
-}
+```bash
+cd skate-community-web
 ```
 
-> Cuidado com a localização do arquivo `icones.ttf`
+3. Open the `index.html` file.
 
-Camisas = `\e900`
+## Contribution
 
-Carrinho = `\e901`
+Contributions are welcome! If you have suggestions for improvements, feel free to open an issue or submit a pull request.
 
-Inicio = `\e902`
+## Author
 
-Integrantes = `\e903`
+**Felipe Clarindo**
 
-Menu = `\e904`
+- [LinkedIn](https://www.linkedin.com/in/felipeclarindo)
+- [Instagram](https://www.instagram.com/lipethecoder)
+- [GitHub](https://github.com/felipeclarindo)
 
-Moeda = `\e905`
+## License
 
-Notificação = `\e906`
-
-Pico = `\e908`
-
-Picos = `\e909`
-
-Pinturas = `\e90a`
-
-Play = `\e90b`
-
-Relogio = `\e90c`
-
-Seta-baixo = `\e90d`
-
-Videos = `\e90e`
-
-Visualizacao = `\e90f`
-
-## Espaçamentos
-
-Espaço interno botão: `8px`
-
-Espaço entre elementos do botão: `8px`
-
-Espaço entre elementos: `16px/8px`
-
-Espaçamento interno do corpo: `16px`
-
-Espaçamento entre o título do cartão de recentes e seus itens: `24px`
-
-## Tamanhos
-
-Tamanho do dispositivo mobile: `360px`
-
-Tamanho do dispositivo desktop: `1440px`
-
-Largura máxima do conteúdo principal: `1120px`
-
-Largura máxima de um cartão desktop: `256px`
-
-Altura mínima de um cartão: `320px`
+This project is licensed under the [GNU Affero License](https://www.gnu.org/licenses/agpl-3.0.html).
